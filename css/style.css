@@ -47,6 +47,17 @@
     color: #fff !important;
 }
 
+.btn.btn-success {
+    background: linear-gradient(to right, #2dd6b7 0%, #58dec6 100%);
+    border: none;
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(45,214,183,.15);
+}
+
+.btn.btn-success:hover, .btn.btn-success:focus, .btn.btn-success.focus, .btn.btn-success:active, .btn.btn-success.active {
+    box-shadow: 0 3px 10px rgba(45,214,183,.5);
+    color: #fff !important;
+}
 .section {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -139,4 +150,55 @@ a {
     line-height: 43px;
     margin: 0 auto;
     border-radius: 50px;
+}
+.testi-content .testi-box .test-user-info .testi-user-img {
+    border: 5px solid #fff;
+    transition: all .5s;
+}
+.avatar-md {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.shadow {
+    box-shadow: 2px 2px 12px -2px rgba(0,0,0,.08) !important;
+}
+
+.blog-box .blog-box-content {
+    margin-bottom: 30px;
+}
+.f-15 {
+    font-size: 15px;
+}
+
+.icon {
+    position: relative;
+    top: -2px;
+}
+.icon-size-15 {
+    height: 15px;
+    width: 15px;
+}
+
+.footer {
+    padding: 70px 0 25px;
+    background: #292d32;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.f-22 {
+    font-size: 22px;
+}
+.footer .footer-sub-menu li .footer-link:hover {
+    color: #fff;
+    margin-left: 5px;
+}
+.footer .footer-sub-menu li .footer-link {
+    color: rgba(255,255,255,.6);
+    transition: all .5s;
+}
+.footer .footer-sub-menu li {
+    padding: 6px 0;
 }
