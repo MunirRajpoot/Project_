@@ -47,17 +47,6 @@
     color: #fff !important;
 }
 
-.btn.btn-success {
-    background: linear-gradient(to right, #2dd6b7 0%, #58dec6 100%);
-    border: none;
-    color: #fff;
-    box-shadow: 0 4px 20px rgba(45,214,183,.15);
-}
-
-.btn.btn-success:hover, .btn.btn-success:focus, .btn.btn-success.focus, .btn.btn-success:active, .btn.btn-success.active {
-    box-shadow: 0 3px 10px rgba(45,214,183,.5);
-    color: #fff !important;
-}
 .section {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -151,54 +140,138 @@ a {
     margin: 0 auto;
     border-radius: 50px;
 }
-.testi-content .testi-box .test-user-info .testi-user-img {
-    border: 5px solid #fff;
-    transition: all .5s;
-}
-.avatar-md {
-    height: 3.5rem;
-    width: 3.5rem;
-}
 
-.shadow {
-    box-shadow: 2px 2px 12px -2px rgba(0,0,0,.08) !important;
-}
 
-.blog-box .blog-box-content {
-    margin-bottom: 30px;
-}
-.f-15 {
-    font-size: 15px;
-}
+/* ========================================LOGIN CSS============================================ */
 
-.icon {
-    position: relative;
-    top: -2px;
-}
-.icon-size-15 {
-    height: 15px;
-    width: 15px;
-}
-
-.footer {
-    padding: 70px 0 25px;
-    background: #292d32;
-    background-position: center center;
-    background-size: cover;
-    width: 100%;
+.enb {
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 80px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://dummyimage.com/1000x1100/cccacc/060612");
     background-repeat: no-repeat;
+    background-size: cover;
 }
-.f-22 {
-    font-size: 22px;
+
+.container-extra {
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+
+    background-color: white;
+    /* position: relative; */
+
+    /* bottom: 50%; */
+
+
 }
-.footer .footer-sub-menu li .footer-link:hover {
-    color: #fff;
-    margin-left: 5px;
+
+.email-inp {
+    background-color: none;
+    outline: none;
+    border: none;
+
 }
-.footer .footer-sub-menu li .footer-link {
-    color: rgba(255,255,255,.6);
-    transition: all .5s;
+
+.pass-inp {
+    background-color: none;
+    outline: none;
+    border: none;
 }
-.footer .footer-sub-menu li {
-    padding: 6px 0;
+
+.logo-sec {
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    justify-content: center;
 }
+
+.logo-img {
+    margin: 8px;
+}
+
+@media (min-width: 320px) and (max-width:554px) {
+    .container-extra {
+        height: 450px;
+        margin: 25px;
+    }
+}
+@media (min-width:220px) and (max-width: 320px){
+    .container-extra{
+        height: 400px;
+        margin: 15px;
+    }
+}
+
+/* -----------------------Login Styling Ending------------------------------- */
+
+
+
+/* ========================================SIGNUP CSS=================================================== */
+
+.enb2 {
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 80px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://dummyimage.com/1000x1100/cccacc/060612");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-extra2 {
+    height: 610px;
+    width: 500px;
+    margin: 50px;
+    
+    background-color: white;
+    /* position: relative; */
+
+    /* bottom: 50%; */
+
+
+}
+
+.email-inp {
+    background-color: none;
+    outline: none;
+    border: none;
+
+}
+
+.pass-inp {
+    background-color: none;
+    outline: none;
+    border: none;
+}
+
+.logo-sec {
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    margin: 8px;
+}
+
+@media (min-width: 320px) and (max-width:554px) {
+    .container-extra2 {
+        height: 600px;
+        margin: 15px;
+    }
+}
+@media (min-width:220px) and (max-width: 320px){
+    .container-extra2{
+        height: 590px;
+        margin: 10px;
+    }
+}
+
+/* ---------------------------------Signup Styling Ending-------------------------------------- */
